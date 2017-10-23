@@ -1,0 +1,25 @@
+# Site settings
+title: Ilievsky
+header-img: img/home-bg.jpg
+email: ilievski.vladimir@live.com
+copyright_name: Vladimir Ilievski
+description: ""
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: VladOsaurus
+github_username:  IlievskiV
+facebook_username:
+email_username: ilievski.vladimir@live.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:UA-84543100-2
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
